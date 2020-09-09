@@ -21,7 +21,7 @@ const Basket = ({ match: { params: { areaId, itemId }}, foodAreas, order }) => {
     } else {
       basketSettings = {
         timeValue: '',
-        timeMode: false,
+        timeMode: true,
         selfService: false
       }
     }
